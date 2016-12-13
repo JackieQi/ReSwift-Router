@@ -183,55 +183,6 @@
 			remoteGlobalIDString = 1F5DF15E1BDCA0CE00C3A531;
 			remoteInfo = "Nimble-tvOSTests";
 		};
-		62AC57BA1CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 625E66831C1FF97E0027C288;
-			remoteInfo = "ReSwift-iOS";
-		};
-		62AC57BC1CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 625E669A1C1FFA3C0027C288;
-			remoteInfo = "ReSwift-iOSTests";
-		};
-		62AC57BE1CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25DBCF7B1C30C4AA00D63A58;
-			remoteInfo = "ReSwift-OSX";
-		};
-		62AC57C01CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25DBCF871C30C4DB00D63A58;
-			remoteInfo = "ReSwift-OSXTests";
-		};
-		62AC57C21CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25DBCF4E1C30C18D00D63A58;
-			remoteInfo = "ReSwift-tvOS";
-		};
-		62AC57C41CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25DBCF641C30C1AC00D63A58;
-			remoteInfo = "ReSwift-tvOSTests";
-		};
-		62AC57C61CA3A04D0007C9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25DBCF371C30BF2B00D63A58;
-			remoteInfo = "ReSwift-watchOS";
-		};
 		C828427D1DFF6A700090888B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62AC577D1CA3A01C0007C9FA /* Quick.xcodeproj */;
@@ -288,11 +239,11 @@
 		625E66F11C2000EA0027C288 /* ReSwiftRouterTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReSwiftRouterTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AC577D1CA3A01C0007C9FA /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Carthage/Checkouts/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
 		62AC579B1CA3A03E0007C9FA /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Carthage/Checkouts/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
-		62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReSwift.xcodeproj; path = Carthage/Checkouts/ReSwift/ReSwift.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C82842831DFF6A700090888B /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		C82842851DFF6A7F0090888B /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/watchOS/ReSwift.framework; sourceTree = "<group>"; };
 		C82842871DFF6A880090888B /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/tvOS/ReSwift.framework; sourceTree = "<group>"; };
 		C82842891DFF6A940090888B /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/Mac/ReSwift.framework; sourceTree = "<group>"; };
+		C828428E1DFF6E690090888B /* ReSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReSwift.xcodeproj; path = "../../GitHubBrowserExample/Carthage/Checkouts/ReSwift-Router/Carthage/Checkouts/ReSwift/ReSwift.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,7 +355,7 @@
 		625E66E21C2000620027C288 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */,
+				C828428E1DFF6E690090888B /* ReSwift.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -463,20 +414,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62AC57B11CA3A04D0007C9FA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				62AC57BB1CA3A04D0007C9FA /* ReSwift.framework */,
-				62AC57BD1CA3A04D0007C9FA /* ReSwift-iOSTests.xctest */,
-				62AC57BF1CA3A04D0007C9FA /* ReSwift.framework */,
-				62AC57C11CA3A04D0007C9FA /* ReSwift-macOSTests.xctest */,
-				62AC57C31CA3A04D0007C9FA /* ReSwift.framework */,
-				62AC57C51CA3A04D0007C9FA /* ReSwift-tvOSTests.xctest */,
-				62AC57C71CA3A04D0007C9FA /* ReSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C828426A1DFF6A700090888B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +423,11 @@
 				C82842831DFF6A700090888B /* ReSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C828428F1DFF6E690090888B /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -713,8 +655,8 @@
 					ProjectRef = 62AC577D1CA3A01C0007C9FA /* Quick.xcodeproj */;
 				},
 				{
-					ProductGroup = 62AC57B11CA3A04D0007C9FA /* Products */;
-					ProjectRef = 62AC57B01CA3A04D0007C9FA /* ReSwift.xcodeproj */;
+					ProductGroup = C828428F1DFF6E690090888B /* Products */;
+					ProjectRef = C828428E1DFF6E690090888B /* ReSwift.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -834,55 +776,6 @@
 			fileType = wrapper.cfbundle;
 			path = NimbleTests.xctest;
 			remoteRef = 62AC57AE1CA3A03E0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57BB1CA3A04D0007C9FA /* ReSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReSwift.framework;
-			remoteRef = 62AC57BA1CA3A04D0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57BD1CA3A04D0007C9FA /* ReSwift-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReSwift-iOSTests.xctest";
-			remoteRef = 62AC57BC1CA3A04D0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57BF1CA3A04D0007C9FA /* ReSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReSwift.framework;
-			remoteRef = 62AC57BE1CA3A04D0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57C11CA3A04D0007C9FA /* ReSwift-macOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReSwift-macOSTests.xctest";
-			remoteRef = 62AC57C01CA3A04D0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57C31CA3A04D0007C9FA /* ReSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReSwift.framework;
-			remoteRef = 62AC57C21CA3A04D0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57C51CA3A04D0007C9FA /* ReSwift-tvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ReSwift-tvOSTests.xctest";
-			remoteRef = 62AC57C41CA3A04D0007C9FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62AC57C71CA3A04D0007C9FA /* ReSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReSwift.framework;
-			remoteRef = 62AC57C61CA3A04D0007C9FA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		C828427E1DFF6A700090888B /* QuickAfterSuite-macOSTests.xctest */ = {
